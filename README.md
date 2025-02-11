@@ -1,2 +1,2 @@
 # Login-Page
-Login Page with visual background.
+Login Page with a visual background.
