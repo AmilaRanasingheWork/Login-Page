@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("pexels-anni-roenkae-2156884.jpg");
+    background-size: cover;
+    font-family: 'Poppins', sans-serif;
+}
+
+form{
+    width: 550px;
+    height: 450px;
+    padding: 50px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    backdrop-filter: blur(25px);
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
+}
+
+form h2{
+    font-size: 35px;
+}
+
+form label{
+    font-size: 18px;
+    font-weight: 500;
+    text-transform: uppercase;
+    align-self: flex-start;
+    margin-top: 10px;
+}
+
+form input{
+    width: 100%;
+    padding: 5px;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    background-color: #ff6bb5;
+}
+
+form div{
+    margin: 20px 0;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    
+}
+
+form div input{
+    width: 20px;
+    height: 20px;
+    margin: 5px;
+    cursor: pointer;
+}
+
+form button{
+    font-family: 'Poppins', sans-serif;
+    width: 50%;
+    padding: 10px;
+    border-radius: 50px;
+    border: none;
+    background-color: #ff6bb5;
+    font-size: 16px;
+    font-weight: 500;
+    cursor: pointer;
+    
+}
